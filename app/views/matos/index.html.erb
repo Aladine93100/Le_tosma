@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Matos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Availability</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @matos.each do |mato| %>
+      <tr>
+        <td><%= mato.name %></td>
+        <td><%= mato.description %></td>
+        <td><%= mato.price %></td>
+        <td><%= mato.availability %></td>
+        <td><%= link_to 'Show', mato %></td>
+        <td><%= link_to 'Edit', edit_mato_path(mato) %></td>
+        <td><%= link_to 'Destroy', mato, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Mato', new_mato_path %>
