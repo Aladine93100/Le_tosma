@@ -1,6 +1,6 @@
-class CreateMatos < ActiveRecord::Migration
+class CreateMateriels < ActiveRecord::Migration
   def change
-    create_table :matos do |t|
+    create_table :materiels do |t|
       t.string :name
       t.text :description
       t.integer :price

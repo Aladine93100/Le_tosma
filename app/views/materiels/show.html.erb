@@ -1,0 +1,19 @@
+<div class="container">
+<div class="row">
+ 
+<div class="col-md-6">
+<%= image_tag "70d.jpg", class: "img-responsive" %>
+</div>
+ 
+<div class="col-md-6">
+<div class="col-md-6">
+<h3><%= @materiel.name %></h3>
+<p class="justify"><%= @materiel.description %></p>
+<h4 class="text-right">$<%= @materiel.price %></h4>
+</div>
+ 
+</div>
+</div>
+ 
+<%= link_to "Edit", edit_materiel_path(@materiel)  %>
+<%= link_to "Back", materiels_path  %>
