@@ -18,7 +18,7 @@ body {
 .navbar-brand {
 	color: white !important;
     font-family: 'Racing Sans One', cursive;	
-    font-size: 20px;
+    font-size: 40px !important;
    	text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;
 
 
@@ -26,11 +26,10 @@ body {
 
 .jumbotron {
 	margin-top: 200px;
-	background-color: rgba(12,0,176,0.5);
-	color: white;
-	border-radius: 10px;
+	color: #1D034F;
 	float: left;
-	text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;
+	text-shadow: white 0.5px 0.5px, white -0.5px 0.5px, white -0.5px -0.5px, white 0.5px -0.5px !important;
+	background-color: rgba(255,255,255,0.3) !important;
 
 }
 
@@ -53,18 +52,20 @@ body {
 #titre {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
+	color: black;
+
 }
 
 #titre2 {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 50px;
-	color: yellow;
+   	color: black !important;
 }
 
 .sous-titre {
 	font-family: 'Economica', sans-serif;
-	color: yellow;
+	color: black !important;
 	font-size: 50px;
 }
 
@@ -72,8 +73,7 @@ body {
 	font-family: 'Economica', sans-serif;
 	color: white;
 	font-size: 50px;
-	color: yellow;
-
+	color: black !important;
 }
 /* page index materiel */
 
