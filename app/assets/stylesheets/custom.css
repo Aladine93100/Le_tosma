@@ -26,7 +26,7 @@ body {
 
 .jumbotron {
 	margin-top: 200px;
-	background-color: rgba(12,0,176,0.3);
+	background-color: rgba(12,0,176,0.5);
 	color: white;
 	border-radius: 10px;
 	float: left;
@@ -58,16 +58,22 @@ body {
 #titre2 {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
-	color: white;
+	font-size: 50px;
+	color: yellow;
 }
 
 .sous-titre {
 	font-family: 'Economica', sans-serif;
+	color: yellow;
+	font-size: 50px;
 }
 
 .sous-titre2 {
 	font-family: 'Economica', sans-serif;
 	color: white;
+	font-size: 50px;
+	color: yellow;
+
 }
 /* page index materiel */
 
