@@ -26,10 +26,9 @@ body {
 
 .jumbotron {
 	margin-top: 200px;
-	color: #1D034F;
+	color: #963DFF;
 	float: left;
 	text-shadow: white 0.5px 0.5px, white -0.5px 0.5px, white -0.5px -0.5px, white 0.5px -0.5px !important;
-	background-color: rgba(255,255,255,0.6) !important;
 
 }
 
@@ -50,6 +49,10 @@ body {
 #small-text {
 	margin-top: 30px;
 	font-size: 15px;
+}
+
+span {
+	color: #0AD100;
 }
 
 #titre {
