@@ -7,7 +7,7 @@ class MaterielsController < ApplicationController
   # GET /materiels
   # GET /materiels.json
   def index
-    @materiels = Materiel.where(availability: true)
+    @materiels = Materiel.all
     respond_with(@materiels)
   end
 
@@ -58,6 +58,6 @@ class MaterielsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def materiel_params
-      params.require(:materiel).permit(:name, :description, :price, :availability)
+      params.require(:materiel).permit(:name, :description, :price, :availability, :image, :resource)
     end
 end

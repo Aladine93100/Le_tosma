@@ -5,6 +5,17 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get 'dashboard' => "pages#dashboard"
+  get 'canon'     => "materiels#canon"
+  get 'gopro'     => "materiels#gopro"
+  get 'obj_50'    => "materiels#obj_50"
+  get 'obj_18'    => "materiels#obj_18"
+  get 'hf'        => "materiels#hf"
+  get 'stroboscope'     => "materiels#stroboscope"
+  get 'fumee'     => "materiels#fumee"
+  get 'led'       => "materiels#led"
+  get 'zoom'      => "materiels#zoom"
+  get 'raspi'     => "materiels#rpi"
+  get 'about'     => "pages#about"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

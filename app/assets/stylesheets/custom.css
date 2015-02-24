@@ -1,4 +1,84 @@
+body { 
+  margin:0;
+  padding:0;
+  background: url(media2.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+
+.navbar {
+	background-color: transparent;
+	border: none;
+	font-family: 'Bangers', cursive;
+	color: #FEFF10 !important;
+
+}
+
+.navbar-brand {
+	color: white !important;
+    font-family: 'Racing Sans One', cursive;	
+    font-size: 20px;
+   	text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;
+
+
+}
+
+.jumbotron {
+	margin-top: 200px;
+	background-color: rgba(12,0,176,0.3);
+	color: white;
+	border-radius: 10px;
+	float: left;
+	text-shadow: #000000 0.5px 0.5px, #000000 -0.5px 0.5px, #000000 -0.5px -0.5px, #000000 0.5px -0.5px;
+
+}
+
+
+.thumbnail {
+	opacity: 0.3;
+	filter: alpha(opacity=50);
+ 	-webkit-transition: opacity 1s linear;
+}
+	
+.thumbnail:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+ 	-webkit-transition: opacity 1s linear;
+ 	box-shadow: white;
+}
+
+
+
 #titre {
 	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+}
+
+#titre2 {
+	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+	color: white;
+}
+
+.sous-titre {
+	font-family: 'Economica', sans-serif;
+}
+
+.sous-titre2 {
+	font-family: 'Economica', sans-serif;
+	color: white;
+}
+/* page index materiel */
+
+.page-header {
 	font-family: 'Bangers', cursive;
+	color: white;
+	text-align: center;
+	background-color: none;
+}
+
+.container {
+	color: white;
+	background-color: none;
 }
