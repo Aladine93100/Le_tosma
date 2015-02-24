@@ -19,7 +19,7 @@ body {
 	color: white !important;
     font-family: 'Racing Sans One', cursive;	
     font-size: 40px !important;
-   	text-shadow: black 1px 0.5px, black 1px 0.5px, black -1px -0.5px, black 1px -0.5px;
+   	text-shadow: #090A09 2px 2px, #090A09 2px 2px, #090A09 -2px -1px, #090A09 2px -1px !important;
 
 
 }
@@ -58,7 +58,7 @@ span {
 #titre {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
-	color: white;
+	color: #090A5C;
 
 }
 
@@ -66,18 +66,18 @@ span {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
 	font-size: 40px;
-   	color: white !important;
+   	color: #090A5C !important;
 }
 
 .sous-titre {
 	font-family: 'Racing Sans One', cursive;
-	color: white !important;
+	color: #090A5C !important;
 	font-size: 40px;
 }
 
 .sous-titre2 {
 	font-family: 'Racing Sans One', cursive;
-	color: white !important;
+	color: #090A5C !important;
 	font-size: 40px;
 }
 /* page index materiel */
