@@ -31,15 +31,6 @@ ActiveRecord::Schema.define(version: 20150223013315) do
     t.datetime "resource_updated_at"
   end
 
-  create_table "matos", force: :cascade do |t|
-    t.string   "name"
-    t.text     "description"
-    t.integer  "price"
-    t.boolean  "availability", default: true
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
-  end
-
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
