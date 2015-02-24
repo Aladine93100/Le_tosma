@@ -59,20 +59,20 @@ body {
 #titre2 {
 	text-align: center;
 	font-family: 'Racing Sans One', cursive;
-	font-size: 50px;
+	font-size: 30px;
    	color: black !important;
 }
 
 .sous-titre {
 	font-family: 'Racing Sans One', cursive;
 	color: black !important;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .sous-titre2 {
 	font-family: 'Racing Sans One', cursive;
 	color: white;
-	font-size: 50px;
+	font-size: 30px;
 	color: black !important;
 }
 /* page index materiel */
